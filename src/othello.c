@@ -10,6 +10,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <cilk/cilk.h>
+#include <cilk/cilk_api.h>
 
 #define RED     "\x1B[31m"
 #define BLU     "\x1B[34m"
